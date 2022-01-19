@@ -22,11 +22,11 @@ echo "Connecté !";
 
 
 // Commande pour ajouter les variables présentes dans le formulaire POST
-/* try {
+try {
     $res->query("INSERT INTO infoConnexion (loginCo, mdpCo, addrIP) VALUES ('$login', '$mdp', '$ip')");
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
-} */
+}
 
 
 
