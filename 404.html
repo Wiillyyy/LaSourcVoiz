@@ -1,0 +1,61 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F07%2FAmazing-sunset-colors-wallpaper-4k.jpg&f=1&nofb=1");
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(224, 13, 13); 
+  background-color: rgba(235, 15, 15, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2>Erreur :</h2>
+  <h1 style="font-size:50px">Mauvais mot de passe !</h1>
+  <p href="index.html">Merci de réessayer</p>
+  <a style="text-decoration: none; color: white;" href="index.html">Retour au site :)</a>
+</div>
+
+</body>
+</html>
